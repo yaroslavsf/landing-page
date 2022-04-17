@@ -1,16 +1,17 @@
-*{
-    border: 2px solid red;
-}
-
-img {
-    width: 18em;
-    height: 10em;
+body {
+    margin: 0%;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: #1F2937;
+}
+
+footer a {
+    color:aliceblue;
 }
 /* nav */
 nav {
@@ -18,6 +19,14 @@ nav {
     flex-direction: row;
     justify-content: center;
     border-bottom: 1px solid black;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
 }
 
 .menu{
@@ -46,6 +55,10 @@ nav {
 }
 
 /* greeting section */
+.greeting_section{
+    background-color: #1F2937;
+}
+
 .greeting_wrapper {
     width: 80%;
     display: flex;
@@ -56,12 +69,21 @@ nav {
 .greeting_content {
     display: flex;
     align-items: center;
+
+    font-size: 48px;
+    font-weight:bold;
+    color: #F9FAF8;
 }
 
 .greeting_picture {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.greeting_img {
+    width: 50vh;
+    height: 30vh;
 }
 
 /* info section */
@@ -99,7 +121,16 @@ nav {
     width: 80%;
 } 
 
+.item_img {
+    border-radius: 10%;
+    border: 4px solid #3882f6;
+}
+
 /* quote section */
+.quote_section {
+    background-color: #e5e7eb;
+}
+
 .quote_wrapper {
     width: 80%;
     display: flex;
@@ -120,7 +151,7 @@ nav {
     justify-content: right;
 }
 
-/* contact section§ */
+/* contact section */
 .contact_card_wrapper {
     width: 80%;
     display: flex;
@@ -134,6 +165,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: #3882f6;
+    border-radius: 2%;
+
+    
 }
 
 .contact {
@@ -142,9 +178,16 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    color: white;   
 }
 
 .contact button { 
-    height: 50%;
-    width: 20%;
+    height: 30%;
+    width: 15%;
+
+    border: 2px solid white;
+    color: white;   
+    background-color: #3882f6;
+    border-radius: 10%;
 }
